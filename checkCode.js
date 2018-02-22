@@ -5,12 +5,12 @@ function checkCode(theCode) {
      
     if (twentyCode == theCode) {
         document.getElementById("disc").value = "20";
-        alert("Your order will be " + document.getElementById("disc").value + "% off!, select 'Buy Now' for your discount");
+        alert("Your order will be " + document.getElementById("disc").value + "% off!");
     }
     
     else if (thirtyCode == the Code) {
     	document.getElementById("disc").value = "30";
-    	alert("Your order will be " + document.getElementById("disc").value + "% off!, select 'Buy Now' for your discount");
+    	alert("Your order will be " + document.getElementById("disc").value + "% off!");
 
     else {
         alert("That is an invalid coupon");
